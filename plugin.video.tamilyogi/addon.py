@@ -26,7 +26,7 @@ mode = args.get('mode', None)
 def getMovieList():
 	movie_list = {}
 	index = 0
-	req = urllib2.Request('http://tamilyogi.fm/category/tamilyogi-full-movie-online/')
+	req = urllib2.Request('http://tamilyogi.vip/category/new-tamil-movies-online/')
 	req.add_header('User-Agent', 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3')
 	response = urllib2.urlopen(req)
 	page_content = response.read()
